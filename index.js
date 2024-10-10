@@ -1,5 +1,10 @@
 import express from "express";
 import { dbconnection } from "./config/db.js";
+import router from "./router/trip_router.js";
+
+
+
+
 
 dbconnection();
 
